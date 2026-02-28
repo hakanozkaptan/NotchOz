@@ -19,6 +19,8 @@ on:
 jobs:
   build-and-release:
     runs-on: macos-14
+    permissions:
+      contents: write   # required to create releases and upload DMG (repo must allow it: Settings → Actions → Workflow permissions → Read and write)
     steps:
       - name: Checkout
         uses: actions/checkout@v4
