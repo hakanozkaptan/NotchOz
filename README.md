@@ -4,11 +4,11 @@ A macOS menu bar app that shows widgets in the **notch area** (or handler area o
 
 ## Screenshots
 
-<img width="702" height="561" alt="Screenshot 2026-02-28 at 19 50 57" src="https://github.com/user-attachments/assets/3c6dea29-9ece-4338-ade3-165cbc4fd4c1" />
+<img width="313" height="263" alt="Screenshot 2026-02-28 at 19 52 36" src="https://github.com/user-attachments/assets/d14500dd-ca53-4fae-92d1-a3c3ed7d7501" />
 <img width="696" height="563" alt="Screenshot 2026-02-28 at 19 51 04" src="https://github.com/user-attachments/assets/64267b71-65be-48cc-b622-fc31d750c1aa" />
 <img width="693" height="564" alt="Screenshot 2026-02-28 at 19 51 19" src="https://github.com/user-attachments/assets/b99fe47b-fa41-4787-ba14-f4c09c6cd575" />
 <img width="695" height="566" alt="Screenshot 2026-02-28 at 19 51 35" src="https://github.com/user-attachments/assets/c63720b0-52e4-429d-ab7f-d3f90017c22a" />
-<img width="313" height="263" alt="Screenshot 2026-02-28 at 19 52 36" src="https://github.com/user-attachments/assets/d14500dd-ca53-4fae-92d1-a3c3ed7d7501" />
+
 
 
 ## Requirements
