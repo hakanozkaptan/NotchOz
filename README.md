@@ -83,14 +83,18 @@ NotchWidgets/                     # Xcode project (app name: NotchOz)
 
 ## Releases
 
-A **GitHub Action** builds a DMG and attaches it to a release when you push a version tag:
+A **GitHub Action** (`.github/workflows/release.yml`) builds a DMG on `macos-14` with Xcode 16.2. The app is not signed/notarized on CI; users may need to allow it in **System Settings → Privacy & Security** the first time.
+
+**Option A — Release from a tag**  
+Push a version tag; the workflow creates a GitHub Release and attaches `NotchOz.dmg`:
 
 ```bash
 git tag v1.0.0
 git push origin v1.0.0
 ```
 
-The workflow (`.github/workflows/release.yml`) runs on `macos-14`, builds Release, creates `NotchOz.dmg`, and creates a release with the DMG attached. The app is not signed/notarized on CI, so users may need to allow it in System Settings → Privacy & Security the first time.
+**Option B — Manual run (no tag)**  
+Go to **Actions → Release DMG → Run workflow**. When the run finishes, download the DMG from the run’s **Artifacts** (no release is created).
 
 ## License
 
