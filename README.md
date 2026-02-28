@@ -2,6 +2,16 @@
 
 A macOS menu bar app that shows widgets in the **notch area** (or handler area on notchless displays). Inspired by the NotchNook concept.
 
+## Screenshots
+
+- [Screenshot 1](https://ibb.co/sdydP8cq)
+- [Screenshot 2](https://ibb.co/V0q4tymg)
+- [Screenshot 3](https://ibb.co/W4BPGH1s)
+- [Screenshot 4](https://ibb.co/1G6ZBqq0)
+- [Screenshot 5](https://ibb.co/7qfjnKs)
+
+*If images don’t display, use each link in a browser or replace with the image’s “Direct link” from imgbb.*
+
 ## Requirements
 
 - **macOS 14.0** or later
