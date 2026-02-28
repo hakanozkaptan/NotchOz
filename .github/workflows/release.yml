@@ -1,5 +1,6 @@
 # Build NotchOz and produce a DMG.
-# - Run manually: Actions → "Release DMG" → "Run workflow" → DMG appears as an artifact to download.
+# - Run manually: Actions → "Release DMG" → "Run workflow" → DMG appears as an artifact.
+#   Optionally fill "Tag for release" (e.g. v1.0.0) to also attach the DMG to that release.
 # - Push a tag (e.g. v1.0.0): same build + a GitHub Release is created with the DMG attached.
 # No Apple signing on CI — the app may show "untrusted developer" until the user allows it.
 
@@ -10,6 +11,10 @@ on:
     tags:
       - 'v*'
   workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag for release (e.g. v1.0.0) — leave empty to only get artifact'
+        required: false
 
 jobs:
   build-and-release:
@@ -48,9 +53,10 @@ jobs:
           path: NotchOz.dmg
 
       - name: Create Release and upload DMG
-        if: startsWith(github.ref, 'refs/tags/')
+        if: startsWith(github.ref, 'refs/tags/') || (github.event_name == 'workflow_dispatch' && inputs.tag != '')
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ inputs.tag || github.ref_name }}
           files: NotchOz.dmg
           generate_release_notes: true
         env:
