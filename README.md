@@ -2,6 +2,8 @@
 
 A macOS menu bar app that shows widgets in the **notch area** (or handler area on notchless displays). Inspired by the NotchNook concept.
 
+<a href="https://www.buymeacoffee.com/tijNJ98" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=tijNJ98&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" alt="Buy Me A Coffee" /></a>
+
 ## Screenshots
 
 <img width="313" height="263" alt="Screenshot 2026-02-28 at 19 52 36" src="https://github.com/user-attachments/assets/d14500dd-ca53-4fae-92d1-a3c3ed7d7501" />
@@ -83,7 +85,13 @@ NotchWidgets/                     # Xcode project (app name: NotchOz)
 
 ## Releases
 
-A **GitHub Action** (`.github/workflows/release.yml`) builds a DMG on `macos-14` with Xcode 16.2. The app is not signed/notarized on CI; users may need to allow it in **System Settings → Privacy & Security** the first time.
+A **GitHub Action** (`.github/workflows/release.yml`) builds a DMG on `macos-14` with Xcode 16.2. The app is not signed/notarized on CI.
+
+**If macOS says “NotchOz.app is damaged”:** This usually means the app was quarantined because it was downloaded from the internet and is unsigned. The app is not actually damaged. Do one of the following:
+
+- **Right‑click** NotchOz.app → **Open** → confirm with **Open** once. You may then need to allow it in **System Settings → Privacy & Security** (e.g. “NotchOz was blocked…” → **Open Anyway**).
+- Or remove the quarantine flag: open Terminal and run  
+  `xattr -cr /Volumes/NotchOz/NotchOz.app` (while the DMG is mounted), or after copying to Applications: `xattr -cr /Applications/NotchOz.app`. Then open the app as usual.
 
 **Option A — Release from a tag**  
 Push a version tag; the workflow creates a GitHub Release and attaches `NotchOz.dmg`:
