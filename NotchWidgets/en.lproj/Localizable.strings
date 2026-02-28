@@ -1,0 +1,63 @@
+/* Menu bar */
+"menu_open_notch" = "Open Notch";
+"menu_settings" = "Settings...";
+"menu_quit" = "Quit";
+
+/* General settings */
+"tab_general" = "General";
+"settings_language" = "Language";
+"language_section" = "LANGUAGE";
+"language_system" = "System";
+"language_english" = "English";
+"language_turkish" = "Türkçe";
+
+/* Window title */
+"window_settings" = "Settings";
+
+/* Tabs */
+"tab_widgets" = "Widgets";
+"tab_weather" = "Weather";
+"tab_quick_info" = "Quick Info";
+
+/* Widget names */
+"widget_clock" = "Clock";
+"widget_weather" = "Weather";
+"widget_quick_info" = "Quick Info";
+
+/* Widgets settings */
+"active_widgets" = "Active widgets";
+"widgets_drag_hint" = "Drag to reorder. Top items appear first in the notch.";
+
+/* Weather settings */
+"weather_location" = "Location";
+"weather_city" = "City";
+"weather_search_placeholder" = "Search province...";
+"weather_selected" = "Selected";
+"weather_api_footer" = "Uses Open-Meteo; no API key required.";
+"weather_api" = "API";
+"weather_api_key_optional" = "API key (optional)";
+
+/* Quick info settings */
+"quick_info_text" = "Quick info text";
+"quick_info_placeholder" = "Short note shown in the notch area.";
+
+/* Notch popup */
+"notch_title_widgets" = "Widgets";
+
+/* Widget placeholders */
+"weather_loading" = "Loading...";
+"weather_set_city" = "Set city";
+"quick_info_add" = "Add quick info";
+"note_section_label" = "NOTE";
+
+/* Music widget */
+"widget_music" = "Music";
+"music_not_playing" = "No music playing";
+
+/* Finance widget */
+"widget_finance" = "Finance";
+"finance_loading" = "Loading rates...";
+"finance_error" = "Rates unavailable";
+"finance_usd" = "USD";
+"finance_eur" = "EUR";
+"finance_gold" = "Gold";

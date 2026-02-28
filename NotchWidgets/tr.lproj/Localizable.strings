@@ -1,0 +1,63 @@
+/* Menu bar */
+"menu_open_notch" = "Notch'u Aç";
+"menu_settings" = "Ayarlar...";
+"menu_quit" = "Çıkış";
+
+/* General settings */
+"tab_general" = "Genel";
+"settings_language" = "Dil";
+"language_section" = "DİL";
+"language_system" = "Sistem";
+"language_english" = "English";
+"language_turkish" = "Türkçe";
+
+/* Window title */
+"window_settings" = "Ayarlar";
+
+/* Tabs */
+"tab_widgets" = "Widget'lar";
+"tab_weather" = "Hava Durumu";
+"tab_quick_info" = "Hızlı Bilgi";
+
+/* Widget names */
+"widget_clock" = "Saat";
+"widget_weather" = "Hava Durumu";
+"widget_quick_info" = "Hızlı Bilgi";
+
+/* Widgets settings */
+"active_widgets" = "Aktif widget'lar";
+"widgets_drag_hint" = "Sırayı değiştirmek için sürükleyin. Üsttekiler notch'ta önce görünür.";
+
+/* Weather settings */
+"weather_location" = "Konum";
+"weather_city" = "Şehir";
+"weather_search_placeholder" = "İl ara...";
+"weather_selected" = "Seçilen";
+"weather_api_footer" = "Open-Meteo kullanılır; API anahtarı gerekmez.";
+"weather_api" = "API";
+"weather_api_key_optional" = "API anahtarı (opsiyonel)";
+
+/* Quick info settings */
+"quick_info_text" = "Hızlı bilgi metni";
+"quick_info_placeholder" = "Notch alanında görünecek kısa not.";
+
+/* Notch popup */
+"notch_title_widgets" = "Widget'lar";
+
+/* Widget placeholders */
+"weather_loading" = "Yükleniyor...";
+"weather_set_city" = "Şehir ayarlayın";
+"quick_info_add" = "Hızlı bilgi ekleyin";
+"note_section_label" = "NOT";
+
+/* Music widget */
+"widget_music" = "Müzik";
+"music_not_playing" = "Şarkı çalmıyor";
+
+/* Finance widget */
+"widget_finance" = "Döviz & Altın";
+"finance_loading" = "Kurlar yükleniyor...";
+"finance_error" = "Kur verisi alınamadı";
+"finance_usd" = "Dolar";
+"finance_eur" = "Euro";
+"finance_gold" = "Altın";
